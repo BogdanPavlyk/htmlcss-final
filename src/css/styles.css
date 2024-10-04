@@ -1,0 +1,33 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+/* Utils styles */
+@import url('./utils/reset.css');
+@import url('./utils/animations.css');
+
+/* Common styles */
+@import url('./common/base.css');
+@import url('./common/container.css');
+@import url('./common/section.css');
+@import url('./common/card-set.css');
+@import url('./common/buttons.css');
+@import url('./common/form.css');
+@import url('./common/basic.css');
+
+/* Components styles */
+@import url('./components/social-links.css');
+@import url('./components/mobile-menu.css');
+
+/* Sections style */
+@import url('./sections/header.css');
+@import url('./sections/hero.css');
+@import url('./sections/about-us.css');
+@import url('./sections/lessons.css');
+@import url('./sections/proposal.css');
+@import url('./sections/teachers.css');
+@import url('./sections/application.css');
+@import url('./sections/reviews.css');
+@import url('./sections/footer.css');
