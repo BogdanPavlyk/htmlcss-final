@@ -1,12 +1,12 @@
 {
-  "name": "htmlcss-final",
+  "name": "project-abovytan",
   "private": true,
   "version": "1.0.0",
-  "author": "Bogdan Pavlyk <bogdan.pavlyk7@gmail.com>",
+  "author": "Vitalii Solianyk <v.o.solyanil@gmail.com>",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build --base=/htmlcss-final/",
+    "dev": "vite --open",
+    "build": "vite build --base=/project-abovytan/",
     "preview": "vite preview"
   },
   "devDependencies": {

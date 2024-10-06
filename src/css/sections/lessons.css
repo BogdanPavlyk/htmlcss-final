@@ -1,9 +1,23 @@
+@media only screen and (min-width: 768px) {
+  .lessons .container > .secondary-text {
+    max-width: 665px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 .lessons-list-item {
   max-width: 335px;
   min-height: 400px;
   padding: 40px 20px;
   border: 1px solid var(--green-color);
   border-radius: 16px;
+  transition: transform var(--transition-duration) var(--transition-function);
+}
+
+.lessons-list-item:focus-within,
+.lessons-list-item:hover {
+  transform: scale(1.05);
 }
 
 @media only screen and (min-width: 768px) {
